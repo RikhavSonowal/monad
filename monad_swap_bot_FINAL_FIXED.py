@@ -84,7 +84,7 @@ def approve_tokens(wallet, tokens):
                 'from': wallet["address"],
                 'nonce': nonce,
                 'gas': 60000,
-                'gasPrice': web3.to_wei('2', 'gwei')
+                'gasPrice': web3.to_wei('10', 'gwei')
             })
             signed = acct.sign_transaction(tx)
             tx_hash = web3.eth.send_raw_transaction(signed.raw_transaction)
