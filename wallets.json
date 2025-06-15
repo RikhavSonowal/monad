@@ -1,9 +1,5 @@
 [
   {
-    "address": "0xYourWalletAddress1",
-    "private_key": "0xYourPrivateKey1"
-  },
-  {
     "address": "0xYourWalletAddress2",
     "private_key": "0xYourPrivateKey2"
   }
