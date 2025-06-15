@@ -11,20 +11,14 @@ This bot performs automated multi-token swaps on the Monad testnet using Web3 an
 
 ## 🔧 Setup Instructions (VPS)
 
-1. **Upload and Extract ZIP**
-   ```bash
-   unzip monad_testnet_swap_bot.zip
-   cd monad_testnet_swap_bot
-   ```
-
-2. **Install Dependencies**
+1. **Install Dependencies**
    ```bash
    sudo apt update
    sudo apt install python3-pip -y
    pip3 install web3
    ```
 
-3. **Configure Wallets**
+2. **Configure Wallets**
    Edit `wallets.json` and add your testnet wallet addresses and private keys:
 
    ```json
@@ -40,12 +34,12 @@ This bot performs automated multi-token swaps on the Monad testnet using Web3 an
    ]
    ```
 
-4. **Run the Bot**
+3. **Run the Bot**
    ```bash
    python3 monad_swap_bot.py
    ```
 
-5. **(Optional) Run as Cronjob**
+4. **(Optional) Run as Cronjob**
    Open crontab:
    ```bash
    crontab -e
